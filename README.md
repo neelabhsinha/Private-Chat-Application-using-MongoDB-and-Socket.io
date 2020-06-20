@@ -17,7 +17,11 @@ This repository contains a fully functional private chat application using Mongo
 
 ## Usage Guide -
 
-1. Install [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com/) on your system 
+1. Install [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com/) on your system. Check using the following commands in the terminal -
+
+```cmd
+$ node -v
+$ mongod --version
 
 2. Open your terminal and run the following -
 
