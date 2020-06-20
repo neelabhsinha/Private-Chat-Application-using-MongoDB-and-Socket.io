@@ -1,8 +1,8 @@
 # Private-Chat-Application-using-MongoDB-and-Socket.io
 This repository contains a fully functional private chat application using MongoDB, Socket.io and Express that supports real-time chatting and also allows to retrieve chat when logged in later.
 
-##Tech-stack -
-- HTML, cSS (for front-end interface)
+## Tech-stack -
+- HTML, CSS (for front-end interface)
 - JavaScript (both front-end behaviour and in the back-end)
 - Node.js and Express.js (for back-end server)
 - Socket.io (for real-time interaction between the client and the server)
@@ -17,7 +17,7 @@ This repository contains a fully functional private chat application using Mongo
 
 ## Usage Guide -
 
-1. Install (https://nodejs.org/)[Node.js] and (https://www.mongodb.com/)[MongoDB] on your system 
+1. Install [Node.js](https://nodejs.org/) and [MongoDB](https://www.mongodb.com/) on your system 
 
 2. Open your terminal and run the following -
 
@@ -40,7 +40,7 @@ $ node server.js
 
 Feel free to try different cases, like when one user is offline, when both users are online but one of them is chatting with other person, etc.
 
-##Functionality -
+## Functionality -
 - When a user logs in, his'her record is maintained in online users collection, and the entire chat history is retrived from the database and displayed using socket.io
 - When he sends messages, it's checked if the recipient is online or not. If yes, message is sent to him. If not, nothing happens. In both the cases, message is stored in database for later access
 - When a user disconnects, he'she is  removed from online users database
