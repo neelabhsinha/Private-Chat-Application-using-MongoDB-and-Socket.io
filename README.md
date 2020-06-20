@@ -22,6 +22,7 @@ This repository contains a fully functional private chat application using Mongo
 ```cmd
 $ node -v
 $ mongod --version
+```
 
 2. Open your terminal and run the following -
 
