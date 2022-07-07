@@ -12,7 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "moment": "^2.26.0",
+    "moment": "^2.29.4",
     "mongodb": "^3.5.9",
     "socket.io": "^2.3.0"
   },
